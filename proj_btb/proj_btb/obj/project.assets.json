@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/ajaykaratam/.nuget/packages/": {}
+    "C:\\Users\\mroth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ajaykaratam/Projects/Polyform/proj_btb/proj_btb/proj_btb.csproj",
+      "projectUniqueName": "C:\\Users\\mroth\\Source\\Repos\\Polyform\\proj_btb\\proj_btb\\proj_btb.csproj",
       "projectName": "proj_btb",
-      "projectPath": "/Users/ajaykaratam/Projects/Polyform/proj_btb/proj_btb/proj_btb.csproj",
-      "packagesPath": "/Users/ajaykaratam/.nuget/packages/",
-      "outputPath": "/Users/ajaykaratam/Projects/Polyform/proj_btb/proj_btb/obj/",
+      "projectPath": "C:\\Users\\mroth\\Source\\Repos\\Polyform\\proj_btb\\proj_btb\\proj_btb.csproj",
+      "packagesPath": "C:\\Users\\mroth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mroth\\Source\\Repos\\Polyform\\proj_btb\\proj_btb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ajaykaratam/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mroth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -53,15 +55,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
