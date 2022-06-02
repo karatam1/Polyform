@@ -6,9 +6,9 @@
 <body>
     <p>Use this page to enter user credentials</p>
     <form id="frm1" action="/action_page.php">
-        Username: <input type="text" name="usr">
+        Username: <input type="text" id="usr" name="usr">
         <br>
-        Password: <input type="text" name="pwd">
+        Password: <input type="text" id="pwd" name="pwd">
         <br>
         <input type="button" onclick="userLogin()" value="Enter">
     </form>
@@ -16,9 +16,9 @@
     <script>
         function userLogin() {
 
-            document.getElementById("frm1").submit();
-            console.log(document.getElementsByName('usr').value);
-            console.log(document.getElementsByName('pwd').value);
+            //document.getElementById("frm1").submit();
+            console.log(document.getElementById('usr').value);
+            console.log(document.getElementById('pwd').value);
         }</script>
 
 </body>
